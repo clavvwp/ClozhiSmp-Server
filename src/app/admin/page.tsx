@@ -35,7 +35,7 @@ const ADMINS = [
     displayName: 'Quiin odysia',
     role: 'Co-Owner',
     roleColor: '#a855f7',
-    skinUrl: '/admins/Quiin.jpg',
+    skinUrl: '/admins/Quiin.png',
     description: 'Co-Owner yang bertanggung jawab atas operasional server sehari-hari.',
     socials: { discord: 'HIMA', ig: '@himawariizys_' },
     joinDate: 'Season 1',
