@@ -88,10 +88,10 @@ Apa yang menanti di chapter selanjutnya? Hanya waktu yang akan menjawabnya. Satu
 
 // ── Milestone kecil di samping timeline ──
 const MILESTONES = [
-  { icon: '👥', value: '500+', label: 'Total Players' },
+  { icon: '👥', value: '100+', label: 'Total Players' },
   { icon: '🏰', value: '2', label: 'Season Selesai' },
   { icon: '⚔️', value: '12+', label: 'Clan Wars' },
-  { icon: '🎉', value: '50+', label: 'Events' },
+  { icon: '🎉', value: '20+', label: 'Events' },
 ];
 
 export default function StoryPage() {
