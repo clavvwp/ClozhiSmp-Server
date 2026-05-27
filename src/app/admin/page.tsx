@@ -230,7 +230,7 @@ export default function AdminPage() {
         {/* Role legend */}
         <ScrollReveal>
           <div className="flex flex-wrap justify-center gap-3 mb-16">
-            {[...new Set(ADMINS.map(a => a.role))].map((role, i) => {
+            {Array.from(new Set(ADMINS.map(a => a.role))).map((role, i) => {
               const admin = ADMINS.find(a => a.role === role)!;
               return (
                 <span key={role} className="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs"
