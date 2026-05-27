@@ -13,7 +13,7 @@ import Card3D from '@/components/ui/Card3D';
 
 // ✏️ SET TANGGAL LAUNCH DI SINI (format: 'YYYY-MM-DD')
 const LAUNCH_DATE = '2026-01-01';
-const DISCORD_URL = 'https://discord.gg/your-invite';
+const DISCORD_URL = 'https://discord.gg/fyNQ3gnyc';
 
 // Teaser features — ganti sesuai rencana server baru
 const TEASER_FEATURES = [

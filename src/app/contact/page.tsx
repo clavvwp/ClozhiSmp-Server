@@ -18,7 +18,7 @@ const CONTACT_INFO = [
     icon: '💬',
     label: 'Discord',
     value: 'discord.gg/clozhi-smp',
-    href: 'https://discord.gg/your-invite',
+    href: 'https://discord.gg/fyNQ3gnyc',
     desc: 'Cara tercepat menghubungi kami',
     color: '#5865f2',
   },

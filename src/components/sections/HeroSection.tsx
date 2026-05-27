@@ -7,7 +7,7 @@ import Image from 'next/image';
 import GlowButton from '@/components/ui/GlowButton';
 
 const SERVER_IP   = 'play.clozhismp.net';
-const DISCORD_URL = 'https://discord.gg/your-invite';
+const DISCORD_URL = 'https://discord.gg/fyNQ3gnyc';
 
 export default function HeroSection() {
   const canvasRef = useRef<HTMLCanvasElement>(null);

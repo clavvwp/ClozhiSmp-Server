@@ -16,7 +16,7 @@ const SOCIAL_LINKS = [
     icon: '💬',
     label: 'Discord',
     description: 'Join 1,200+ members',
-    href: 'https://discord.gg/your-invite',
+    href: 'https://discord.gg/fyNQ3gnyc',
     color: '#5865f2',
   },
   {
@@ -138,7 +138,7 @@ export default function CommunitySection() {
             <p className="text-white/40 mb-8 max-w-sm mx-auto">
               Chat with staff, get updates, find teammates, and stay in the loop with everything CLOZHI SMP.
             </p>
-            <GlowButton href="https://discord.gg/your-invite" variant="primary" size="lg">
+            <GlowButton href="https://discord.gg/fyNQ3gnyc" variant="primary" size="lg">
               💬 Join Discord Server
             </GlowButton>
           </div>
