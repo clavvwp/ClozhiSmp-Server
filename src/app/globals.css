@@ -1,7 +1,7 @@
 /* ============================================
    GLOBAL STYLES — globals.css
-   This file sets up fonts, CSS variables,
-   and base styles for the whole site.
+   Theme: Dark futuristic + Clozhi logo colors
+   Logo colors: Gold #F5C518, Cyan #22d3ee, Silver #C0C0C0
    ============================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap');
@@ -10,12 +10,24 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ── CSS Variables (easy to change the theme) ── */
 :root {
-  --color-bg: #050008;
+  --color-bg: #040008;
+
+  /* Original purple */
   --color-purple: #a855f7;
   --color-purple-light: #c084fc;
+
+  /* Cyan from logo */
   --color-cyan: #22d3ee;
+  --color-cyan-dark: #0891b2;
+
+  /* Gold from logo lettering */
+  --color-gold: #F5C518;
+  --color-gold-dark: #d4a017;
+
+  /* Silver from "SMP" text in logo */
+  --color-silver: #C8D6E5;
+
   --color-glass: rgba(255, 255, 255, 0.04);
   --color-glass-border: rgba(255, 255, 255, 0.08);
 
@@ -23,54 +35,56 @@
   --font-body: 'Inter', sans-serif;
 }
 
-/* ── Base reset ── */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
   background-color: var(--color-bg);
   color: #ffffff;
   font-family: var(--font-body);
   overflow-x: hidden;
-  cursor: none; /* Hide default cursor — custom cursor takes over */
+  cursor: none;
 }
 
-/* ── Custom scrollbar ── */
-::-webkit-scrollbar {
-  width: 6px;
-}
-::-webkit-scrollbar-track {
-  background: #0a0015;
-}
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #080010; }
 ::-webkit-scrollbar-thumb {
-  background: var(--color-purple);
+  background: linear-gradient(180deg, var(--color-gold), var(--color-purple));
   border-radius: 3px;
 }
 
-/* ── Utility: neon glow text ── */
+/* Glow text — purple */
 .glow-text {
   text-shadow:
-    0 0 20px rgba(168, 85, 247, 0.8),
-    0 0 60px rgba(168, 85, 247, 0.4),
-    0 0 100px rgba(168, 85, 247, 0.2);
+    0 0 20px rgba(168,85,247,0.8),
+    0 0 60px rgba(168,85,247,0.4),
+    0 0 100px rgba(168,85,247,0.2);
 }
 
-/* ── Utility: neon glow for borders / boxes ── */
+/* Glow text — gold (for logo-style headings) */
+.glow-gold {
+  text-shadow:
+    0 0 20px rgba(245,197,24,0.9),
+    0 0 60px rgba(245,197,24,0.5),
+    0 0 100px rgba(245,197,24,0.2);
+}
+
+/* Glow text — cyan */
+.glow-cyan {
+  text-shadow:
+    0 0 20px rgba(34,211,238,0.8),
+    0 0 60px rgba(34,211,238,0.4);
+}
+
 .glow-box {
   box-shadow:
-    0 0 20px rgba(168, 85, 247, 0.3),
-    0 0 60px rgba(168, 85, 247, 0.1),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    0 0 20px rgba(168,85,247,0.3),
+    0 0 60px rgba(168,85,247,0.1),
+    inset 0 1px 0 rgba(255,255,255,0.1);
 }
 
-/* ── Glassmorphism card ── */
 .glass-card {
   background: var(--color-glass);
   border: 1px solid var(--color-glass-border);
@@ -78,11 +92,62 @@ body {
   -webkit-backdrop-filter: blur(12px);
 }
 
-/* ── Animated gradient background for hero ── */
+/* Main page gradient — uses logo colors */
 .gradient-bg {
   background:
-    radial-gradient(ellipse 80% 60% at 50% -20%, rgba(168, 85, 247, 0.25) 0%, transparent 60%),
-    radial-gradient(ellipse 60% 40% at 80% 50%, rgba(34, 211, 238, 0.1) 0%, transparent 50%),
-    radial-gradient(ellipse 40% 30% at 20% 80%, rgba(168, 85, 247, 0.15) 0%, transparent 50%),
-    #050008;
+    radial-gradient(ellipse 80% 60% at 50% -20%, rgba(168,85,247,0.2) 0%, transparent 55%),
+    radial-gradient(ellipse 50% 40% at 85% 40%, rgba(34,211,238,0.1) 0%, transparent 50%),
+    radial-gradient(ellipse 40% 30% at 15% 70%, rgba(245,197,24,0.07) 0%, transparent 50%),
+    radial-gradient(ellipse 30% 20% at 50% 100%, rgba(168,85,247,0.1) 0%, transparent 50%),
+    #040008;
 }
+
+/* Pixel-style border (Minecraft vibe) */
+.pixel-border {
+  border: 2px solid;
+  border-image: linear-gradient(135deg, #F5C518, #22d3ee, #a855f7) 1;
+  image-rendering: pixelated;
+}
+
+/* Gradient text — gold to cyan (matches logo) */
+.text-logo-gradient {
+  background: linear-gradient(135deg, #F5C518 0%, #22d3ee 60%, #a855f7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Gold gradient text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F5C518, #d4a017);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Animated gradient border */
+@keyframes borderRotate {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-border {
+  background: linear-gradient(270deg, #F5C518, #22d3ee, #a855f7, #F5C518);
+  background-size: 400% 400%;
+  animation: borderRotate 4s ease infinite;
+}
+
+/* Floating animation */
+@keyframes floatY {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-14px); }
+}
+.float-anim { animation: floatY 5s ease-in-out infinite; }
+
+/* Pulse glow */
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 20px rgba(245,197,24,0.4); }
+  50%       { box-shadow: 0 0 50px rgba(245,197,24,0.8), 0 0 80px rgba(245,197,24,0.3); }
+}
+.pulse-gold { animation: pulseGlow 2.5s ease-in-out infinite; }

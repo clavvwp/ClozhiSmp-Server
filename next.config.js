@@ -6,7 +6,7 @@
 // if deploying to GitHub Pages
 // ============================================
 
-// const isProd = process.env.NODE_ENV === 'production';
+const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
   // Static export — required for GitHub Pages
@@ -15,7 +15,7 @@ const nextConfig = {
   // If deploying to https://yourusername.github.io/clozhi-smp/
   // set basePath to '/clozhi-smp'
   // If deploying to a custom domain, remove basePath entirely
-  // basePath: isProd ? '/clozhi-smp' : '',
+  basePath: isProd ? '/clozhi-smp' : '',
 
   // Required for static image optimization with export
   images: {
