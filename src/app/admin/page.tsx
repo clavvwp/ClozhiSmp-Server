@@ -250,11 +250,11 @@ export default function AdminPage() {
         </div>
 
         {/* Edit note */}
-        <ScrollReveal delay={0.3}>
+        {/* <ScrollReveal delay={0.3}>
           <p className="text-center mt-12 text-white/20 text-xs">
             💡 Edit array <code className="text-purple-400/60">ADMINS</code> di <code className="text-purple-400/60">src/app/admin/page.tsx</code> untuk mengubah data
           </p>
-        </ScrollReveal>
+        </ScrollReveal> */}
       </section>
     </PageLayout>
   );
