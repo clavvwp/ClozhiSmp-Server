@@ -5,7 +5,7 @@
 // ============================================
 
 import type { Metadata } from 'next';
-import './globals.css';
+// import './globals.css';
 
 // ── SEO metadata — edit this for your server ──
 export const metadata: Metadata = {
