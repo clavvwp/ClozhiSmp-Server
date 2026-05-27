@@ -1,0 +1,52 @@
+# ============================================
+# GitHub Actions Workflow
+# Automatically builds and deploys the site
+# to GitHub Pages whenever you push to main.
+#
+# To use: push your code to GitHub and this
+# file will handle deployment automatically!
+# ============================================
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # lets you manually trigger from GitHub UI
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # Step 1: Download your code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      # Step 3: Install all packages
+      - name: Install dependencies
+        run: npm ci
+
+      # Step 4: Build the static site
+      - name: Build
+        run: npm run build
+
+      # Step 5: Add .nojekyll so GitHub serves all files correctly
+      - name: Add .nojekyll
+        run: touch out/.nojekyll
+
+      # Step 6: Deploy the out/ folder to gh-pages branch
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
