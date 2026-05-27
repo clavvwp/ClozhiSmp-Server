@@ -20,8 +20,8 @@ import Card3D from '@/components/ui/Card3D';
 // ============================================
 const ADMINS = [
   {
-    username: 'Clavinova  v.w.p',
-    displayName: 'Clavddr',
+    username: 'Clavddr',
+    displayName: 'Clavinova v.w.p',
     role: 'Owner',
     roleColor: '#fbbf24',        // warna badge role
     skinUrl: '/admins/Clav.jpeg',                  // '/admins/clozhi.png'
@@ -31,8 +31,8 @@ const ADMINS = [
     badge: '♛',
   },
   {
-    username: 'Quiin odysia',
-    displayName: 'Quiin',
+    username: 'Quiin',
+    displayName: 'Quiin odysia',
     role: 'Co-Owner',
     roleColor: '#a855f7',
     skinUrl: '/admins/Quiin.jpeg',
@@ -42,19 +42,19 @@ const ADMINS = [
     badge: '✯',
   },
   {
-    username: 'Domi-Rover',
-    displayName: 'DominousCrucks',
+    username: 'DominousCrucks',
+    displayName: 'Domi-Rover',
     role: 'Co-Admin',
     roleColor: '#22d3ee',
     skinUrl: '/admins/Domi.jpeg',
-    description: 'Admin yang menjaga ketertiban dan kenyamanan server.',
+    description: 'Seorang Admin yang suka Sosialisasi dengan semua orang dan Friendly.suka menjelajah dan bertarung serta menjaga ketertiban dan kenyamanan server.',
     socials: { discord: '`Num`Nom 돕는 사람', ig: '@alterx_ald' },
     joinDate: 'Season 1',
     badge: '✨',
   },
   {
-    username: 'Ikky-Maru',
-    displayName: 'CalySupan',
+    username: 'CalySupan',
+    displayName: 'Ikky-Maru',
     role: 'Admin',
     roleColor: '#271ed6',
     skinUrl: '/admins/ikky.jpeg',
@@ -64,8 +64,8 @@ const ADMINS = [
     badge: '⚒',
   },
   {
-    username: 'Zhafran',
-    displayName: 'Zhafyx24',
+    username: 'Zhafyx24',
+    displayName: 'Zhafran',
     role: 'Thinker',
     roleColor: '#f97316',
     skinUrl: '',
@@ -75,8 +75,8 @@ const ADMINS = [
     badge: '🏗️',
   },
   {
-    username: 'Caelus',
-    displayName: 'Only2Me',
+    username: 'Only2Me',
+    displayName: 'Caelus',
     role: 'Co-Operator',
     roleColor: '#2cff4b',
     skinUrl: '',
