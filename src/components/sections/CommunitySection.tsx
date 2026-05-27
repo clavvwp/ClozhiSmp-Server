@@ -13,32 +13,32 @@ import GlowButton from '@/components/ui/GlowButton';
 // ── SOCIAL LINKS — add your real URLs here ──
 const SOCIAL_LINKS = [
   {
-    icon: '💬',
+    icon: '🎮',
     label: 'Discord',
-    description: 'Join 1,200+ members',
+    description: 'Join 100+ members',
     href: 'https://discord.gg/fyNQ3gnyc',
     color: '#5865f2',
   },
   {
-    icon: '📺',
-    label: 'YouTube',
+    icon: '♪',
+    label: 'TikTok',
     description: 'Watch server content',
-    href: 'https://youtube.com/@yourChannel',
-    color: '#ff0000',
+    href: 'https://www.tiktok.com/@clozhismp?is_from_webapp=1&sender_device=pc',
+    color: '#eeff00',
   },
   {
-    icon: '🐦',
-    label: 'Twitter / X',
+    icon: '✆',
+    label: 'Whatsapp Channel',
     description: 'Follow for updates',
-    href: 'https://twitter.com/yourAccount',
-    color: '#1da1f2',
+    href: 'https://whatsapp.com/channel/0029Vb6z9Hx7T8bccfUuHg0E',
+    color: '#1df232',
   },
   {
     icon: '📸',
     label: 'Instagram',
     description: 'Screenshots & news',
-    href: 'https://instagram.com/yourAccount',
-    color: '#e1306c',
+    href: 'https://www.instagram.com/clozhismpx?igsh=ZXZ5and5OXNhOWZs',
+    color: '#c300ff',
   },
 ];
 
@@ -139,7 +139,7 @@ export default function CommunitySection() {
               Chat with staff, get updates, find teammates, and stay in the loop with everything CLOZHI SMP.
             </p>
             <GlowButton href="https://discord.gg/fyNQ3gnyc" variant="primary" size="lg">
-              💬 Join Discord Server
+              🎮 Join Discord Server
             </GlowButton>
           </div>
         </ScrollReveal>

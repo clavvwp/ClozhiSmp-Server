@@ -138,7 +138,7 @@ export default function HeroSection() {
             🎮 Play Now
           </GlowButton>
           <GlowButton href={DISCORD_URL} variant="outline" size="lg">
-            💬 Join Discord
+            🎮 Join Discord
           </GlowButton>
         </motion.div>
 
