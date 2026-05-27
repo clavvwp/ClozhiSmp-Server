@@ -87,7 +87,7 @@ export default function HeroSection() {
           className="inline-flex items-center gap-2 mb-8 px-4 py-1.5 rounded-full border text-xs tracking-widest uppercase"
           style={{ borderColor: 'rgba(245,197,24,0.3)', color: '#F5C518', background: 'rgba(245,197,24,0.06)' }}>
           <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-          Server Online · Season 2
+          Server Online · Coming Soon!
         </motion.div>
 
         {/* Logo image — floating */}
