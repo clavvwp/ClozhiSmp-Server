@@ -180,11 +180,11 @@ export default function ScreenshotSection() {
         </div>
 
         {/* Instruction note */}
-        <ScrollReveal delay={0.3}>
+        {/* <ScrollReveal delay={0.3}>
           <p className="text-center mt-8 text-white/20 text-xs">
             💡 Add your screenshots to <code className="text-purple-400/60">/public/screenshots/</code> and update the paths in ScreenshotSection.tsx
           </p>
-        </ScrollReveal>
+        </ScrollReveal> */}
       </div>
 
       {/* Lightbox */}
