@@ -16,37 +16,44 @@ import ScrollReveal from '@/components/ui/ScrollReveal';
 const SCREENSHOTS = [
   {
     id: 1,
-    src: '',           // e.g. '/screenshots/spawn.jpg'
-    alt: 'Server Spawn',
-    label: 'Spawn Area',
+    src: '/screenshots/2.jpg',           // e.g. '/screenshots/spawn.jpg'
+    alt: 'Member ClozhiSMP',
+    label: 'Member ClozhiSMP',
     size: 'large',     // 'large' takes more columns
   },
   {
     id: 2,
-    src: '',
-    alt: 'PvP Arena',
-    label: 'PvP Arena',
+    src: '/screenshots/1.jpeg',
+    alt: 'Clozhi Night',
+    label: 'Clozhi Night',
     size: 'small',
   },
   {
     id: 3,
-    src: '',
-    alt: 'Player Town',
-    label: 'Player Town',
+    src: '/screenshots/3.jpeg',
+    alt: 'Clozhi SMP',
+    label: 'Clozhi SMP',
     size: 'small',
   },
   {
     id: 4,
-    src: '',
-    alt: 'Underground Mining',
-    label: 'Deep Caves',
+    src: '/screenshots/4.jpg',
+    alt: 'Big Mansion',
+    label: 'Map ClozhiSMP S2',
     size: 'small',
   },
   {
     id: 5,
-    src: '',
-    alt: 'Epic Castle',
-    label: 'Clan Castle',
+    src: '/screenshots/5.jpg',
+    alt: 'Photo Member',
+    label: 'Photo Member',
+    size: 'large',
+  },
+  {
+    id: 6,
+    src: '/screenshots/6.jpg',
+    alt: 'Epic Sunset on ClozhiSmp S2',
+    label: 'Epic Sunset on ClozhiSmp S2',
     size: 'large',
   },
 ];
