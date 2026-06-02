@@ -19,8 +19,8 @@ const SEASON_INFO = {
   number: 1,
   title: 'The Beginning',
   tagline: 'Di sinilah segalanya dimulai.',
-  startDate: '30 Desember 2023',
-  endDate: '27 Juni 2024',
+  startDate: '30/12/2023',
+  endDate: '27/06/2024',
   totalDays: 145,
   totalPlayers: 97,
   status: 'ENDED',
@@ -28,12 +28,13 @@ const SEASON_INFO = {
 };
 
 const HIGHLIGHTS = [
-  { icon: '🏆', title: 'Perang Klan Pertama', desc: 'Klan Nether vs Klan Overworld — pertempuran 3 hari yang melegenda.' },
-  { icon: '🏙️', title: 'Kota Terbesar', desc: 'Kota "Clozhi City" dibangun oleh 30 pemain selama 2 minggu.' },
-  { icon: '💰', title: 'Ekonomi Lahir', desc: 'Market pertama dibuka. Total transaksi: 50,000+ item.' },
-  { icon: '🌋', title: 'Event Nether Gate', desc: 'Boss fight pertama server — 60 pemain melawan Wither raksasa.' },
-  { icon: '🤝', title: 'Alliance Besar', desc: '5 klan bersatu untuk pertama kalinya dalam sejarah server.' },
-  { icon: '🎉', title: 'Festival Panen', desc: 'Event community terbesar — 80+ pemain online bersamaan.' },
+  { icon: '🔍', title: 'The Great Investigation', desc: 'Mencari dan mengungkap rusuh server bersama.' },
+  { icon: '📸', title: 'Captured Memories', desc: 'Mengabadikan momen bersama' },
+  { icon: '⚒️', title: ' United Builders', desc: 'Build bersama' },
+  { icon: '🗺️', title: 'Into The Wilderness', desc: 'Menjelajahi dunia Minecraft' },
+  { icon: '🏘️', title: 'Alliance Besar', desc: 'Mencari berbagai macam village' },
+  { icon: '🌊', title: 'Ocean Monument Hunt', desc: 'Mencari ocean monument saat menyelam di lautan.' },
+  { icon: '🏠', title: 'Village Expansion Project', desc: 'Membangun berbagai macam varian village.' },
 ];
 
 const TOP_PLAYERS = [
