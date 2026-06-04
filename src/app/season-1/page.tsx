@@ -40,9 +40,10 @@ const HIGHLIGHTS = [
 const TOP_PLAYERS = [
   { rank: 1, name: 'Clavins12', achievement: 'The first and most active Clozhi server creator on the server.', icon: '💰', detail: 'Owner of the server' },
   { rank: 2, name: 'CallySupan',    achievement: 'Explorer and Most active on server',     icon: '⚔️', detail: 'Partner Of Clavins12' },
-  { rank: 3, name: 'DominousRover',  achievement: 'Best Builder',   icon: '🏗️', detail: 'Voted by community' },
-  { rank: 4, name: 'MinerKing',   achievement: 'Most Mined',     icon: '⛏️', detail: '500k blocks' },
-  { rank: 5, name: 'ExplorerS',   achievement: 'First to End',   icon: '🌟', detail: 'Solo speedrun' },
+  { rank: 3, name: 'DominousCruck',  achievement: 'Best Builder',   icon: '🏗️', detail: 'Voted by community' },
+  { rank: 4, name: 'QuiinOdisia',   achievement: 'Most Mined',     icon: '⛏️', detail: '500k blocks' },
+  { rank: 5, name: 'Zhafyx24',   achievement: 'First to End',   icon: '🌟', detail: 'Solo speedrun' },
+  { rank: 6, name: 'Wixyy',   achievement: 'First to End',   icon: '🌟', detail: 'Solo speedrun' },
 ];
 
 const SCREENSHOTS: string[] = [
