@@ -44,7 +44,8 @@ const TOP_PLAYERS = [
   { rank: 4, name: 'QuiinOdisia',   achievement: 'Most Mined',     icon: '⛏️', detail: '500k blocks' },
   { rank: 5, name: 'Zhafyx24',   achievement: 'First to End',   icon: '🌟', detail: 'Solo speedrun' },
   { rank: 6, name: 'Wixyy',   achievement: 'First to End',   icon: '🌟', detail: 'Solo speedrun' },
-  { rank: 7, name: 'Udin',   achievement: 'First to End',   icon: '🌟', detail: 'Solo speedrun' },
+  { rank: 7, name: 'Udin',   achievement: 'Player Of Security',   icon: '🌟', detail: 'Solo speedrun' },
+  { rank: 8, name: 'Faqi',   achievement: 'Top Player terbarbar',   icon: '🌟', detail: 'Solo speedrun' },
 ];
 
 const SCREENSHOTS: string[] = [
