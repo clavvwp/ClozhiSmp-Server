@@ -38,8 +38,8 @@ const HIGHLIGHTS = [
 ];
 
 const TOP_PLAYERS = [
-  { rank: 1, name: 'PlayerLegend', achievement: 'Richest Player', icon: '💰', detail: '1,000,000 coins' },
-  { rank: 2, name: 'WarriorX',    achievement: 'Most Kills',     icon: '⚔️', detail: '2,847 kills' },
+  { rank: 1, name: 'Clavins12', achievement: 'The first and most active Clozhi server creator on the server.', icon: '💰', detail: 'Owner of the server' },
+  { rank: 2, name: 'CallySupan',    achievement: 'Explorer and Most active on server',     icon: '⚔️', detail: 'Partner Of Clavins12' },
   { rank: 3, name: 'ArchitectZ',  achievement: 'Best Builder',   icon: '🏗️', detail: 'Voted by community' },
   { rank: 4, name: 'MinerKing',   achievement: 'Most Mined',     icon: '⛏️', detail: '500k blocks' },
   { rank: 5, name: 'ExplorerS',   achievement: 'First to End',   icon: '🌟', detail: 'Solo speedrun' },
